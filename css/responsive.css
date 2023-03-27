@@ -1,0 +1,216 @@
+@media (max-width: 1170px) {
+
+    /* General css */
+    .section-subtitle {
+        max-width: 60% !important;
+    }
+     /* navbar */
+     .header .navbar {
+
+        background-size: cover !important;
+        padding: 2rem !important;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem !important;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .header-right span {
+        padding-left: 0.2rem 0.5rem;
+    }
+    .Banner_section .carousel-indicators {
+        position: unset;
+        margin: 4rem;
+          margin-top: 4rem;
+        margin-top: -50px!important;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: var(--bg-pink);
+      }
+}
+
+@media (max-width: 991px) {
+
+    /* general */
+    .about .banner_section,
+    .product .banner_section,
+    .Gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+
+    /* navbar */
+    .header .navbar {
+
+        background-size: cover !important;
+        padding: 2rem !important;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem !important;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .header-right span {
+        padding-left: 0.2rem 0.5rem;
+    }
+    .Testimonial_section .card {
+
+        margin-left: 18px!important;
+        margin-right: 2px!important;
+    }
+    .Banner_section .carousel-indicators {
+        position: unset;
+        margin: 4rem;
+          margin-top: 4rem;
+        margin-top: -50px!important;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: var(--bg-pink);
+      }
+      .about_section .about-box {
+        margin-top: -4rem!important;
+        margin-left: 1rem!important;
+      }
+      .header-wrapper .navbar-collapse{
+        background-color: #002c3e!important;
+   }
+}
+
+@media (max-width: 767px) {
+
+    /* general */
+    body,
+    html {
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+    /* banner section */
+     /* .banner_section{
+        min-height: 70vh;
+     }
+     .banner_section .carousel-item{
+        min-height: 70vh;
+     }
+    */
+     .header .navbar {
+
+        background-size: cover !important;
+        padding: 2rem !important;
+    } 
+
+    .header .navbar-nav {
+        margin-top: 2rem !important;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .header-right span {
+        padding-left: 0.2rem 0.5rem;
+    }
+
+    .Testimonial_section .card {
+
+        margin-left: 18px!important;
+        margin-right: 2px!important;
+    }
+    .Testimonial_section .img{
+        margin-left: 127px!important;
+    }
+    .header-wrapper .navbar-collapse{
+        background-color: #002c3e!important;
+   }
+   .container1 img {
+    margin-left: 0rem!important;
+    margin-bottom: 1rem;
+  }
+  .about_section {
+    background-image: gray!important;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    height: 60rem;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 105%!important;
+  }
+}
+
+@media (max-width: 590px) {
+
+    /* general */
+    body,
+    html{
+        font-size: 7px;
+    }
+
+
+    .header .navbar {
+
+        background-size: cover !important;
+        padding: 2rem !important;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem !important;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .header-right span {
+        padding-left: 0.2rem 0.5rem;
+    }
+    .Testimonial_section .card {
+
+        margin-left: 18px!important;
+        margin-right: 2px!important;
+    }
+    .Testimonial_section .img{
+        margin-left: 6px!important;
+    }
+    .header-wrapper .navbar-collapse{
+        background-color: #002c3e!important;
+   }
+   .container1 img {
+    margin-left: 0rem!important;
+    margin-bottom: 1rem;
+  }
+  .col-6 {
+    flex: 0 0 auto;
+    width: 105%!important;
+  }
+  .about_section {
+    background-image: gray!important;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    height: 60rem;
+}
+}
